@@ -1,0 +1,111 @@
+body {
+    font-family: 'Lato', sans-serif;  
+    background-color: lightblue;
+    margin: 0;
+}
+
+.banner {
+    background-image: url("images/project.jpeg");
+    height: 150px;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    padding: 100px;
+}
+
+.banner, .banner-text, .banner-text-2, .header1, .header2, .header3 {
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+
+}
+.banner-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+.banner-text-2 {
+    font-size: 18px;
+    color: #555; 
+
+}
+
+.title {
+    text-align: center;
+    color: rgb(5, 46, 123);
+    font-size: 50px;
+}
+.header1 {
+    color: blue;
+    font-size: 40px;
+}
+
+.header2 {
+    color: red;
+    font-size: 40px;
+}
+
+.header3 {
+    color: yellowgreen;
+    font-size: 40px;
+}
+
+.idea, .project, .contact, .image-container {
+    text-align: left;
+    font-size: 18px;
+    padding: 50px; 
+    border-top: 8px solid rgba(189, 186, 186, 0.2)
+}
+
+.idea {
+    background-color: white;
+    margin: 0; 
+}
+
+.contact {
+    background-color: white;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.image-container {
+    background-color: rgb(238, 250, 193);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    gap: 10px;        
+    margin: 0;              
+}
+
+.pic1 {
+    height: auto;                 
+    width: 180px;
+}
+
+.navbar {
+    text-align: center;
+    background-color: rgb(133, 208, 233);
+    padding: 3px;
+    width: 100%;
+}
+
+.navbar a {
+    margin-right: 75px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
